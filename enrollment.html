@@ -1,0 +1,299 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    
+<!-- Mirrored from www.firstcentury.com/enrollment.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 Apr 2016 13:49:49 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>First Century</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="mootools.js"></script>
+<script type="text/javascript" src="swfobject.js" charset="utf-8"></script>
+<script type="text/javascript" src="calcs.js" charset="utf-8"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="iepngfixs.css" />
+<![endif]-->
+<script> 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','../www.google-analytics.com/analytics.js','ga'); 
+
+ga('create', 'UA-58052676-1', 'auto'); 
+ga('send', 'pageview'); 
+
+</script>
+    </head>
+    <body class="logos"><div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,ca,cy,da,de,el,es,fr,ga,it,ja,lv,pl,pt,ru,tr,zh-CN', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+        <!-- class: home | onlinebanking | mainimg -->
+        <div id="bgHighlight"></div>
+<div id="page">
+  <div id="headerContainer">
+      <div id="header"><!--include file="inc_slideshow.aspx"-->
+          <div id="onlinebankingxy"></div><!-- End of onlinebankingxy div -->
+            <div id="onlinebanking">
+                      <div id="obheader">ONLINE BANKING</div>
+<div id="obcontent">
+
+<!-- Javascript Functions //-->
+<script type='text/javascript'>
+<!--
+        function setAction()
+        {
+               //Fill in the Routing number below.
+               var rtNum = "051500601";
+               var x = document.forms.Remote;
+               
+               if(x.loginTo[0].checked) {
+                   x.action = 'https://web13.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?WCI=RemoteLogin&amp;RT=051500601&amp;LogonBy=connect3&amp;PRMACCESS=Account';                  
+               } else {
+                       x.nmUID.value = x.AccessID.value;
+                       x.nmRTN.value = rtNum;
+                       x.action = 'https://web13.secureinternetbank.com/EBC_EBC1961/EBC1961.ashx?WCI=Process&amp;WCE=RemoteLogon&amp;IRL=T&amp;RTN=051500601&amp;mfa=2';
+               }
+        }
+           
+        function doLoginRefresh()
+        {
+               var x = document.forms.Remote;
+               
+               if (x.AccessIDVisible.value != "") {
+                       x.AccessID.value = x.AccessIDVisible.value;
+                       x.AccessIDVisible.value = "";
+                       
+                       setAction();
+                       return true;
+               } else {
+                       alert("Please Enter a valid Access ID.  Thank you!"); 
+                       return false;
+               }       
+        }
+//-->
+</script>  
+
+<!-- HTML Login Form //-->
+<form action='#' method='post' onsubmit='return doLoginRefresh()' id='Remote'>
+        <input type="hidden" id='nmUID' name="nmUID" value="" />
+        <input type="hidden" id='nmRTN' name="nmRTN" value="" />
+        <input type="hidden" id='AccessID' name="AccessID" value="" />
+        
+<table border="0" cellpadding="0" cellspacing="0" width="230" summary='Login Form'>
+<tr>
+   <td style="padding-bottom: 5px;"><b>Logon to:</b></td>
+   <td style="font-size: 11px; text-align: right; padding-bottom: 5px;">
+           <input type="radio" name="loginTo" value="ecom" checked="checked" />Personal  
+           <input type="radio" name="loginTo" value="ecorp" />Business                   </td>
+</tr>
+<tr>
+   <td style="padding-bottom: 5px;"><b>Access ID:</b></td>
+   <td style="text-align: right; padding-bottom: 5px;"><input class="lock" type='text' id='AccessIDVisible' name="AccessIDVisible" value="" size="18" maxlength="20" /></td>
+</tr>   
+<tr>
+   <td colspan='2' style="text-align: right;"><input class="obButton" type="submit" value="Log In" name="submit"></td>
+</tr>
+</table>
+</form>
+<!--<div id="oblinks"><a href="https://web13.secureinternetbank.com/pbi_pbi1961/pbi1961.ashx?Rt=051500601&LogonBy=connect3&PRMACCESS=Account&enroll=true">First Time User</a> | <a href="https://web13.secureinternetbank.com/pbi_pbi1961/pbi1961.ashx?Rt=051500601&LogonBy=connect3&PRMACCESS=Account&WCI=ForgotPswd">Forgot Password</a><br>-->
+<div id="oblinks"><a href="enrollment.html">First Time User</a> | <a href="#">Forgot Password</a><br>
+<a href="online-banking.html">Learn More</a></div>                   
+                    </div><!-- End of obcontent div -->
+                </div>
+              <!-- End of onlinebanking div -->
+          <div id="logo"><a href="default.html"><img src="images/spacer.gif" width="100%" height="100%" border="0"/></a></div>
+        </div><!-- End of header div -->
+    </div><!-- End of headerContainer div -->
+  <div id="contentContainer">
+      <div id="divider">
+          <div id="nav1">
+             <ul id="MenuBar1" class="MenuBarHorizontal">
+<li><a href="default.html">Home</a></li>
+<li><a class="MenuBarItemSubmenu" href="#">Personal</a>
+    <ul>
+        <li><a href="checking.html">Checking</a></li>
+        <li><a href="Savings.html">Savings</a></li>
+        <li><a href="cd-ira.html">CDs  &amp; IRAs</a></li>  
+        <li><a href="OtherServices.html">Other Services</a></li>
+    </ul>
+</li>
+<li><a href="#" class="MenuBarItemSubmenu">Business</a>
+    <ul>
+        <li><a href="business-checking.html">Checking</a></li>
+        <li><a href="business-savings.html">Savings</a></li>
+        <li><a href="cd-ira.html">CDs &amp; IRAs</a></li>
+        <li><a href="OtherServices.html">Other Services</a></li>
+    </ul>
+</li>
+<li><a class="MenuBarItemSubmenu" href="#">Loans</a>
+    <ul>
+      <li><a href="commercial-loans.html">Commercial Loans</a></li>
+      <li><a href="consumer-loans.html">Consumer Loans</a></li>
+    </ul>
+</li>
+<li><a class="MenuBarItemSubmenu" href="#">Trust &amp; Financial Services</a>
+    <ul>
+      <li><a href="trust-services.html">Trust Services</a></li>
+      <li><a href="retirement-services.html">Retirement Services</a></li>
+      <li><a href="education-planning.html">Education Planning</a></li>
+      <li><a href="estate-planning.html">Estate Planning</a></li>
+      <li><a href="investment-services.html">Investment Services</a></li>
+      <li><a href="#">Client Point</a></li>
+    </ul>
+</li>
+<li><a href="#" class="MenuBarItemSubmenu">About Us</a>
+  <ul>
+    <li><a href="history-message.html">History</a></li>
+    <li><a href="branch-locations.html">Branch Locations &amp; ATMs</a></li>
+    <li><a href="#">Investor Relations</a></li>
+    <li><a href="contact-us.html">Contact Us</a></li>
+    <li><a href="job-opportunities.html">Job Opportunities</a></li>
+ </ul>
+</li>
+<li><div style="z-index: 1; top: 10px; right: 10px;"><a href="de/"><img src="de.png"></a></div></li>
+<li><div style="z-index: 1; top: 10px; right: 10px;"><a href="#"><img src="en.png"></a></div></li>
+</ul>
+          </div><!-- End of nav1 div -->
+        </div><!-- End of divider div -->
+
+        <!-- include file="inc_middleSection.aspx" --><!-- Remove on secondary pages -->        
+        <div id="content1">
+            <!-- include file="inc_mainimgBanner.aspx" --><!-- Remove on secondary pages -->         
+            <!-- CMS Content Here -->
+            <p><strong>&nbsp;</strong></p>
+<p align="center"><span style="font-size: small;"><strong>FIRSTNET ONLINE BANKING AGREEMENT</strong></span></p>
+<p align="center">&nbsp;</p>
+<p><strong>Definitions</strong><br /><br />The following definitions apply in this Agreement.<br /><br /><strong>Account(s)</strong> refers to your checking, savings, money market, loan, line of credit, credit card, or mortgage account you have with First Century, Inc., some of which may not be eligible for electronic transfers and bill payments using the Service.<br /><br /><strong>Business Day(s)</strong> means Monday through Friday, except Federal Reserve holidays.<br /><br /><strong>Combined Service</strong> means that both commercial and consumer accounts may be accessed by using the Service.<br /><br /><strong>Delivery Date</strong> refers to the date on which your payment will be delivered to the Payee.<br /><br /><strong>Financial Software</strong> means the version of the following software through which you may access the Service: QuickBooks&reg;, Quicken&reg;, and Microsoft&reg; Money.<br /><br /><strong>Payee</strong> refers to any business, merchant, or professional with a valid U.S. payment address that generates a bill or invoice for services, or services provided on your behalf, or any individual.<br /><br /><strong>Payee Account</strong> refers to the account to which the Payee will credit your payment.<br /><br /><strong>Payee Information</strong> refers to information about a Payee that is used to properly direct payment to the Payee and permit the Payee to identify the correct Payee Account.<br /><br /><strong>Service(s)</strong> refers to collectively, any or all of First Century, Inc. OnLine Banking Services, which allows you to access Account and transaction information, transfer funds, and pay bills on a personal computer through First Century, Inc. FirstNet and the Financial Software.<br /><br /><strong>Service Charge Account</strong> means the account you have designated to be charged for all applicable fees and charges associated with the Services.<br /><br /><strong>Software License Agreement(s)</strong> means the software license agreements governing your use of the PC versions of the Financial Software.<br /><br /><strong>Withdrawal Date</strong> refers to the Business Day on which the funds are withdrawn from your Account for a scheduled Bill Payment.<br /><br /><strong>We, us,</strong> or <strong>our </strong>refers to First Centuryshares Inc., its subsidiaries and affiliates (including, without limitation, First Century) and any agent, independent contractor, designee or assignee that First Century, Inc. may, in its sole discretion, involve in the provision of the Service.<br /><br /><strong>You</strong> or <strong>your</strong> refers to the individuals, corporations, partnerships, limited liability companies, and sole proprietorships subscribing to or using the Service.</p>
+<p dir="ltr"><strong>1. Applicability</strong><br />This Agreement and Initial Disclosures (the "Agreement") governs your use of the Service. By subscribing to the Service or using the Service, you agree to the terms of this Agreement. Please read this Agreement carefully and in its entirety. We suggest that you retain a copy of this Agreement. We also suggest that you retain a copy of the Software License Agreements included with the Financial Software.</p>
+<p dir="ltr"><strong>2. The Service</strong><br />You may use a personal computer ("PC") to electronically direct us to make payments from your Account(s) to Payees whom you have selected in advance to receive payments. You may also access Account and transaction information and order transfers of funds among your eligible Account(s). Not all First Century, Inc. accounts are eligible for electronic transfers and bill payments using the Service.</p>
+<p dir="ltr"><strong>3. Software and Equipment Requirements</strong><br />You may access the Service using First Century, Inc. FirstNET and/or the Financial Software. If you choose to use QuickBooks, Quicken, or Microsoft Money, you must purchase this software from Intuit or Microsoft, or a retailer of your choice. Your use of the PC versions of the Financial Software is governed by the Software License Agreements included with the software. You must agree to the terms and conditions of the Software License Agreements during the installation of the Financial Software on your PC. You are responsible for the correct set-up and installation of the Financial Software.<br /><br /><strong>The financial software contains trade secrets in its human perceivable form and, to protect them, you may not modify, translate, reverse engineer, decompile, disassemble, or otherwise reduce the financial software to human perceivable form. You may not create derivative works based on the financial software or remove any proprietary notices, labels, or marks on the software or accompanying documentation.</strong></p>
+<p dir="ltr"><strong>4. Your User ID and Password</strong><br />You will be asked to choose your personal User ID consisting of 8 - 15 alpha-numeric characters, and a Password consisting of 6 - 12 characters which include at least 2 alpha, 1 numeric and 1 special character, which you will use to obtain access to your Account(s) at First Century, Inc. Password must contain at least two alpha characters. You authorize us to follow any instructions entered through the Service using your User ID and Password. Because your User ID and Password can be used to access money in your Account(s) and to access information about these Account(s), you should treat your User ID and Password with the same degree of care and secrecy that you use to protect your ATM Security code and other sensitive financial data. We may ask you to change your User ID and Password from time to time for security reasons. You agree not to use any language that is abusive, harassing, libelous, defamatory, obscene, or threatening when defining your User ID or any other personalization of your Account(s).</p>
+<p dir="ltr"><strong>5. Sharing Your User ID and Password with Others</strong><br />You agree not to give or make available your User ID, Password, or account number(s) to any person who is not authorized to access your Account(s). If someone to whom you have granted authority to use your User ID and Password exceeds such authority, you are fully liable for all transfers and payments made by such person until you have notified us that you have terminated the authority granted to such person and have given us a reasonable period of time to act upon such notice. We may require that you put such notice in writing. Upon receipt of such notice, we may require you to immediately change your User ID and Password, and to identify the person or persons you believe to have exceeded such authority. You agree to cooperate with us in the investigation and prosecution of any person who has obtained and used your User ID and Password without your authorization.</p>
+<p dir="ltr"><strong>6. Bill Payments</strong><br />You may make payments through the Service to any business, merchant, or professional with a valid address that generates a bill or invoice for services, or services provided on your behalf. We reserve the right to refuse to allow you to designate any particular Payee or class of Payee. You may also make payments through the Service to individuals, family, or friends for non-business purposes. Payments may be made only to Payees with a U.S. payment address. You may not make a payment of alimony, child support, taxes, or other governmental fees or court-ordered payments through the Service. Any user of this Service shall comply with all applicable laws and regulations including the laws and regulations administered by the U.S. Treasury Office of Foreign Assets Control (OFAC).</p>
+<p dir="ltr"><strong>7. Your Payee List</strong><br />You must provide sufficient information about each Payee as we may request from time to time, to properly direct a payment to that Payee and permit the Payee to identify the correct Payee Account to credit with your payment. This information may include, among other criteria, the name, address, and phone number of the Payee and your Payee Account number. You agree that we may obtain information regarding your Payee Accounts in order to facilitate proper handling and crediting of your payments, and you authorize your Payees to release such information to us. You can enter your Payee Information directly on your PC. For First Century, Inc. FirstNet, the change will be immediate upon confirmation of the change. Refer to Online Help for additional information about retrieving your account data.</p>
+<p dir="ltr"><strong>8. Scheduling Bill Payments</strong><br />To electronically schedule a payment with your PC, follow the simple instructions in the Online Help file or the Financial Software Online Help File. When you schedule a bill payment, you authorize us to withdraw the amount of your payment from your Account(s). If the account balance permits, then the selected checking account will be debited for the amount of the payment(s) that you scheduled. Payments begin processing four (4) business days prior to your schedule payment date. Therefore, the application will not permit you the customer to select a Scheduled Payment Date less than four (4) business days from the current date. When scheduling payments you the customer must select a scheduled payment date that is not later than the actual due date reflected on your payee statement / bill unless that due date falls on a non-business day. If the actual due date falls on a non-business day, you the customer must select a scheduled payment date is at least one (1) business day before the actual due date. Scheduled payments dates should be prior to any late date or grace period.</p>
+<p dir="ltr"><strong>9. How Bill Payments are Delivered</strong><br />We may remit your payments by mailing your Payee a paper check, by electronic funds transfer, or by other means. Payees who have a relationship established to receive electronic delivery of payments by us will receive your payment information by a computer link. Electronic payments are generally received and credited by most Payees within two (2) Business Days after the Withdrawal Date. We may also send payments by a paper check drawn on an account we maintain for this purpose. We send all checks through the United States mail. Payments made with a paper draft are generally received and credited by most Payees within five (5) Business Days after the Withdrawal Date. We are not responsible for postal delays or processing delays by the Payees. Occasionally, a Payee chooses not to participate in the Service, or may be unable to process payments in a timely manner. In such cases, we may decline to make future payments to these Payees.</p>
+<p dir="ltr"><strong>10. Future Bill Payments</strong><br />You may schedule a payment for a future Business Day up to one year in advance.</p>
+<p dir="ltr"><strong>11. Repeating Bill Payments</strong><br />You may schedule payments for a <strong>fixed</strong> amount on the same date every month (a "Repeating Payment"). If the specified Delivery Date does not exist in a certain month, the Delivery Date will be the last Business Day of the month. For example, if the specified Delivery Date is for the 30th of each month, the Delivery Date for the month of February will be on or before the 28th of February. If the specified Withdrawal Date falls on a day other than a Business Day in any month, your Withdrawal Date will be the previous Business Day. For example, if the specified Withdrawal Date is the fifth (5th) of each month, and August 5th is a Saturday, the Withdrawal Date for August will be on or before August 4th.</p>
+<p dir="ltr"><strong>12. Guarantee for Bill Payments</strong><br />First Century, Inc. will reimburse you for any late payment fees or penalties you are charged, up to a maximum of $50.00 per scheduled payment, as a result of our failure to deliver a payment made to a business by the Delivery Date if you meet each of the following conditions:</p>
+<ol style="list-style-type: lower-alpha;" dir="ltr">
+<li>You must properly schedule the Withdrawal Date to be on or before the date the payment is due to the Payee, including any required processing time. This means that you must schedule your payments at least four (4) Business Days prior to the date the payment is due to the Payee.&nbsp;</li>
+<li>You must provide us with the correct Payee name, address, due date, account information, and the correct payment amount.</li>
+<li>Your Account(s), including any overdraft plan, must contain sufficient funds to complete the payment or transfer on the Transaction Date.</li>
+<li>The payment must be made to a business.</li>
+<li>The late payment fee or penalty, or the method of calculation, must be published by the Payee prior to the date the payment is due to the Payee.</li>
+<li>Your PC hardware, software, telephone line, and Internet Service Provider, if applicable, must be functioning properly.</li>
+<li>You must provide us with a copy of the statement identifying the late fee.</li>
+</ol>
+<p dir="ltr"><strong>13. Stopping or Modifying Bill Payments</strong><br />You may use your PC to electronically change both the payment amount and the Withdrawal Date of any schedule payment (including recurring payments) by following the directions within the application. You can stop any payment before it has been transmitted to the payee, by contacting First Century, Inc. OnLine Support at <strong>1-714-919-9384.</strong></p>
+<p dir="ltr"><strong>14. Liability for Failure to Stop Payment (Applicable for Consumers Only)</strong><br />If you order us to stop one of these Repeating Payments three (3) Business Days or more before the Withdrawal Date, and we do not do so, we will be liable for the amount of the payment.</p>
+<p dir="ltr"><strong>15. Reviewing Payments and Payment Information</strong><br />For customers using the Financial Software, Payment Information and records of past and future scheduled payments are stored on your PC. The number of records that can be stored depends on the amount of your PC's memory. For First Century, Inc. FirstNet users, Payment Information and records of past and future scheduled payments are stored on the First Century, Inc. computer. Refer to Online Help for additional information about retrieving your payment history.</p>
+<p dir="ltr"><strong>16. Incomplete Payments</strong><br />If we remit your payment to a Payee by mailing your Payee a check, and the check has not been presented for payment within our payment cut-off period, we will investigate the status of the check. If the check has not been presented for payment by sixty (60) days after the Withdrawal Date, we will place a stop payment order on the check and credit your account accordingly.</p>
+<p dir="ltr"><strong>17. Balance Inquiries</strong><br />You may use the Service to check the balance of your Accounts. The balances shown may differ from your records because they may not include deposits that are not available for withdrawal, outstanding checks, or other withdrawals, payments, or charges.</p>
+<p dir="ltr"><strong>18. Cut-off Time for Transfers</strong><br />Transfers between Account(s) initiated via the Service, and received by First Century, Inc. by 5:00 p.m. Eastern Time Monday through Friday will be effective on the current Business Day. Transfers between Account(s) initiated via the Service, and received after 5:00 p.m. Eastern Time Monday through Friday, or all day Saturday, Sunday, and banking holidays will be effective the following Business Day.</p>
+<p dir="ltr"><strong>19. Future Transfers</strong><br />Transfers scheduled for a future date will be effective at 12:00 a.m. Eastern Time on the requested date of transfer.&nbsp; For example, a transfer scheduled to occur on September 3, will be effective at 12:00 a.m. on September 3.&nbsp; The transfer will be viewable via the Service in available balance on the date of the scheduled transfer.&nbsp; The transfer will be viewable via the Service in transaction history the day following the transfer.&nbsp; Transfer amounts may be any amount up to $100,000.</p>
+<p dir="ltr"><strong>20. Stopping or Modifying a Scheduled Transfer</strong><br />A scheduled transfer may be stopped or modified at any time the day prior to the scheduled transfer date.&nbsp; For example, a transfer scheduled for September 3 may be modified or stopped at any time prior to 12:00 a.m. Eastern Time on September 3.</p>
+<p dir="ltr"><strong>21. Documentation</strong><br />All of your payments and transfers made through the Service will appear on your periodic account statement. The Payee Name, payment amount, and Withdrawal Date will be reflected for each payment made through the Service.</p>
+<p dir="ltr"><strong>22. Fees</strong><br />Monthly fees may be changed with advance notice. Monthly fees for your use of the Service are in addition to any fees that you may incur on your Accounts. There may be additional fees charged against your Accounts if a transaction you initiate using the Service causes any of your Accounts to be overdrawn, exceed the maximum permissible number of transactions for the Accounts, or exceed any other qualifiers for the Accounts. Refer to the Bank Services Agreement and the associated Fee Schedule, as amended from time to time, for these fees. There may also be a charge for upgrades to the Financial Software. You will be notified in advance of any fee payable for software upgrades.<br /><br />You authorize First Century, Inc. to deduct all applicable subscription, service, and use fees for the Service from your Service Charge Account. If we are unable to deduct all applicable fees from your Service Charge Account for any reason (such as, the Account has been closed or there are insufficient funds in the Account), you authorize First Century, Inc. to deduct all applicable fees for the Service from any of your other Accounts. You may designate a different Account for service charge deductions, by notifying a local branch, calling First Century, Inc. OnLine Support at <strong>1-714-919-9384.</strong></p>
+<p dir="ltr"><strong>23. Termination</strong><br />You may terminate your use of the Service at any time by visiting your local First Century, Inc. branch office, by calling First Century OnLine Support at <strong>1-714-919-9384</strong>, or by writing to us at First Century, Inc. c/o Electronic Banking Coordinator, P.O. Box 1559, Bluefield, West Virginia 24701. You must notify us at least ten (10) days prior to the date on which you wish to have your Service terminated. We may require that you put your request in writing. If you have scheduled payments with a Withdrawal Date within this ten-day period, you also must separately cancel those payments pursuant to the Stopping and Modifying Bill Payments Section of this Agreement. If we have not completed processing your termination request and you have not otherwise canceled a payment, you will be responsible for payments with Withdrawal Dates during the ten (10) days following our receipt of your written notice of termination, and all accrued fees and charges.&nbsp;&nbsp; If there is more than one Account owner or if more than one person is authorized to access the Account via the Service, we may terminate the Service upon the request of any Account owner or person authorized to access the Account.<br /><br />We may terminate your use of the Service, in whole or in part, at any time without notice.&nbsp;&nbsp; Upon termination, you will remain liable for payments, transfers and other transactions in process, and all accrued fees and charges.</p>
+<p dir="ltr"><strong>24. Service Hours</strong><br />OnLine Banking services are available 24-hours a day, seven days a week, except during maintenance periods, for the scheduling, modification or review of payment orders, and for initiation of funds transfers and balance inquiries, however, bill payments can be processed only on Business Days.</p>
+<p dir="ltr"><strong>25. Business Days</strong><br />Our Business Days are Monday through Friday. Federal Reserve Holidays are not included.</p>
+<p dir="ltr"><strong>26. Transfer Types and Limitations</strong></p>
+<p style="padding-left: 30px;"><strong>1. Account Access</strong></p>
+<p style="padding-left: 30px;">You may use the Service to:&nbsp;&nbsp;</p>
+<ul>
+<ul>
+<li>Transfer funds between your eligible Accounts whenever you request;</li>
+<li>Pay bills directly from your Account(s) in the amounts and on the days you request in accordance with the terms of this Agreement to merchants and individuals located in the U.S.;</li>
+<li>Obtain Account balances;</li>
+<li>Review the history of past transactions on your Accounts; and</li>
+<li>EMail messages to us. EMail may not, however, be used to initiate transactions on your Accounts.</li>
+</ul>
+</ul>
+<p style="padding-left: 30px;"><strong>2. Limitations on Frequency of Transfers</strong><br />The number of transfers between your eligible Accounts may be subject to the limitations that apply to the maximum number of automatic or repeating withdrawals from certain types of accounts. Refer to your Bank Services Agreement for details.</p>
+<p style="padding-left: 30px;"><strong>3. Limitations on Dollar Amount of Transfers/Bill Payments</strong><br />Each transfer between eligible Accounts may range in amounts up to $100,000.00. The maximum aggregate amount that can be transferred between eligible Accounts per day is unlimited. Each bill payment from an Account may range in amounts up to $100,000.00. The maximum aggregate bill payment amount that can be paid per day is unlimited.</p>
+<p><strong>27. Confidentiality</strong><br />Subject to applicable law, we will disclose information to third parties about you and your Accounts or the transfers you make: (i) where it is necessary for completing transfers; or (ii) in order to verify the existence and condition of your Account for a third party, such as a credit bureau or merchant; (iii) in order to comply with government agency or court orders; (iv) if you give us permission; (v) as stated in the First Century, Inc. Privacy Notice; and (vi) as otherwise required or permitted by law or government regulation</p>
+<p dir="ltr"><strong>28. Your Liability (Applicable to Consumers Only)</strong><br />Tell us <strong>at once</strong> if you believe your User ID and Password has been lost or stolen. Telephoning is the best way of keeping your possible losses down. You could lose all the money in your Account plus your maximum overdraft line of credit. If you believe your User ID and Password has been lost or stolen, and you tell us within two (2) Business Days after you learn of the loss or theft, you can lose no more than $50 if someone used your User ID and Password without your permission.<br /><br />If you do <strong>not</strong> tell us within two (2) Business Days after you learn of the loss or theft of your User ID and Password, and we can prove that we could have stopped someone from using your User ID and Password without your permission if you had told us, you could lose as much as $500.<br /><br />Also, if your statement shows transfers that you did not make, tell us <strong>at once</strong>. If you do not tell us within 60 days after the statement was mailed to you, you may not get back any money you lost after the 60 days if we can prove that we could have stopped someone from taking the money if you had told us in time.<br /><br />If a good reason, such as a long trip or a hospital stay, kept you from telling us, we will extend the time periods.</p>
+<p dir="ltr"><strong>29. Contact in Event of Unauthorized Transfer</strong><br />If you believe your User ID and Password has been lost or stolen, or that someone to whom you have granted authority to use your User ID and Password has exceeded such authority, or that someone has transferred or may transfer money from your Account(s) without your permission, call:</p>
+<p dir="ltr" align="center"><strong>1-714-919-9384</strong><br />Or write:<br /><strong>First Century c/o Electronic Banking Coordinator</strong><br /><strong>P.O. Box 1559</strong><br /><strong>Bluefield, West Virginia 24701</strong></p>
+<p dir="ltr"><strong>30. Bank Liability For Transfers (Applicable to Consumers Only)</strong><br />If we do not complete a transfer to or from your Account on time or in the correct amount according to our Agreement with you, we will be liable for your losses or damages. This liability is in addition to the payment guarantee for bill payments. However, there are some exceptions. We will not be liable, for instance:</p>
+<ol style="list-style-type: lower-alpha;" dir="ltr">
+<li>If, through no fault of ours, you do not have enough money in your Account to make the transfer or payment.</li>
+<li>If the transfer or payment would go over the credit limit on your overdraft line.</li>
+<li>The funds in your Account are subject to legal process or other encumbrance restricting such transfer.</li>
+<li>If the Service, your PC, or modem is not working properly and you know about the malfunction when you started the transfer or payment.</li>
+<li>A Payee mishandles or causes delays in handling payments sent by us.</li>
+<li>You have not provided us with the correct Payee name, address, account information, or payment amount.</li>
+<li>
+<div>Circumstances beyond our control prevent the proper completion of the transaction despite reasonable precautions by us to avoid these circumstances. Such circumstances include, but are not limited to, fire, flood, delay in U.S. Mail, interruption in your electrical power or telephone, the disconnecting of your telephone line by your local telephone company or from deficiencies in your line quality, or any defect or malfunction of your PC, operating software, modem, or telephone line.</div>
+</li>
+<li>
+<div>If you have not properly followed the instructions for using the Service or the Financial Software.</div>
+</li>
+</ol>
+<p dir="ltr"><strong>31. Error Resolution Notice</strong> (Applicable to Consumers Only)<br />In case of errors or questions about your Electronic Transfers telephone us at:<br />Contact First Century, Inc as soon as you can if you think your statement or information regarding a transaction is wrong or you need more information about a transfer listed on the statement. We must hear from you no later than 60 days after we sent the first statement on which the problem or error appeared. When contacting First Century, Inc. regarding an error resolution, please be prepared to communicate the following information:</p>
+<p dir="ltr" align="center"><strong>1-714-919-9384</strong><br />Or write:<br /><strong>First Century c/o Electronic Banking Coordinator</strong><br /><strong>P.O. Box 1559</strong><br /><strong>Bluefield, West Virginia 24701</strong></p>
+<p dir="ltr">&nbsp;</p>
+<ol dir="ltr"><ol>
+<li>
+<div>Your name and social security number or tax identification number.</div>
+</li>
+<li>
+<div>The error or the transfer you are unsure about, and explain as clearly as you can why you believe it is an error or why you need more information.</div>
+</li>
+<li>
+<div>The dollar amount of the suspected error.</div>
+</li>
+</ol></ol>
+<p dir="ltr"><br />If you tell us orally, we may require that you send us your complaint or question in writing within ten (10) Business Days. We will tell you the results of our investigation within ten (10) Business Days after we hear from you and will correct any error promptly. If we need more time, however, we may take up to 45 days to investigate your complaint or question. If we decide to do this, we will credit your Account within ten (10) Business Days for the amount you think is in error, so that you will have use of the money during the time it takes us to complete our investigation. If we ask you to put your complaint or question in writing and we do not receive it within ten (10) Business Days, we may not credit your Account.</p>
+<p dir="ltr"><br />If we decide that there was no error, we will send you a written explanation within three (3) Business Days after we finish our investigation. You may ask for copies of the documents that we used in our investigation.</p>
+<p dir="ltr"><strong>32. Electronic Messaging</strong><br />First Century, Inc. OnLine provides you with the ability to send and receive electronic messages to and from us. Please remember that we will not immediately receive an electronic message sent by you. No action will be made on any electronic message you send to us until we actually receive your message and have a reasonable opportunity to act on it. <br /><br /><strong>Electronic messaging CANNOT be used to notify us of lost or stolen User IDs or Passwords; nor can electronic messaging be used to notify us of unauthorized transactions. Notification of these occurrences must be done as specified in the Contact in Event of Unauthorized Transfer in this Agreement. From time to time, we may send important notices to you concerning your use of the Service by electronic messaging. The electronic messaging service may not be used to send or receive eMail messages to or from the general public.</strong></p>
+<p dir="ltr"><strong>33. Limitation of Liability</strong><br />We are not responsible for any loss, damage, or injury resulting from an interruption in the availability of the Service, or any computer virus that you may encounter using the Service.&nbsp; We encourage you to routinely scan your PC using a reliable scanner product to detect and remove viruses and other malicious software from your PC.<br /><br />EXCEPT AS OTHERWISE PROVIDED IN THIS AGREEMENT OR BY LAW, WE ARE NOT RESPONSIBLE FOR ANY LOSS, INJURY, OR DAMAGE WHETHER DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL, CAUSED BY THE SERVICE OR THE USE THEREOF OR ARISING IN ANY WAY OUT OF THE INSTALLATION, USE OR MAINTENANCE OF THE FINANCIAL SOFTWARE, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES OR LOSSES.&nbsp; <strong>First Century, INC. MAKES NO WARRANTY, EXPRESS OR IMPLIED, TO YOU CONCERNING THE SERVICE, THE FINANCIAL SOFTWARE, EQUIPMENT, BROWSER OR OTHER SERVICES INCLUDING, BUT NOT LIMITED TO ANY WARRANTY OF MERCHANTABILITY OR FITNESS FOR PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD-PARTY RIGHTS, UNLESS DISCLAIMING SUCH WARRANTY IS PROHIBITED BY LAW.</strong></p>
+<p dir="ltr"><strong>34. Entire Agreement</strong><br />This Agreement which is incorporated herein by reference, constitutes the complete and exclusive agreement related to the Service, and supplements the Software License Agreements, the Bank Services Agreement, and any other agreement or disclosure related to your Accounts. In the event of a conflict between this Agreement and any other agreement or disclosure related to your Accounts or any statement by our employees or agents, this Agreement shall control as to the subject matter addressed herein.</p>
+<p dir="ltr"><strong>35. Waivers</strong><br />No delay or omission by us in exercising any rights or remedies hereunder shall impair such right or remedy or be construed as a waiver of any such right or remedy. Any single or partial exercise of a right or remedy shall not preclude further exercise or the exercise of any other right or remedy. No waiver shall be valid unless in writing and signed by us.</p>
+<p dir="ltr"><strong>36. Assignment</strong><br />You may not assign this Agreement to any other party. We may assign this Agreement or delegate any or all of our rights and responsibilities under this Agreement to any third parties.</p>
+<p dir="ltr"><strong>37. Governing Law</strong><br />This Agreement shall be governed by and construed in accordance with the laws of West Virginia, without regard to that state's conflict of laws provisions.</p>
+<p dir="ltr"><strong>38. Amendments</strong><br />We may amend this Agreement from time to time by giving you written or electronic notice. Notice may be included in your Account statement. The notice may state that there has been a change in this Agreement and that changes have been posted on our web site, or instruct you to call <strong>1-714-919-9384 </strong>to request a copy. Continued use of the Service following notice of amendment constitutes acceptance of any amendments to this Agreement.</p>
+<p dir="ltr"><strong>39. Severability</strong><br />If any provision of this Agreement is determined to be void or invalid, the remainder of this Agreement shall remain in full force and effect.&nbsp;</p>
+<p style="padding-left: 30px;" dir="ltr">First Century, Inc. &nbsp;OnLine:<br />Minimum hardware and software requirements are as follows:</p>
+<ul>
+<ul>
+<li>Browser with 128-bit encryption Internet access (including Internet Explorer 6.0 and later; Netscape 6.2 and later)</li>
+</ul>
+</ul>
+<p class="NormalWeb1" dir="ltr"><strong>Microsoft Money:</strong><br />First Century, INC. supports Microsoft Money 2001, Microsoft Money 2002, Microsoft Money 2003.</p>
+<p class="NormalWeb1" dir="ltr"><strong>Quicken:</strong><br />First Century, INC. supports Quicken Windows 2001, Quicken Windows 2002, Quicken for Mac 2002, Quicken Windows 2003, Quicken for Mac 2003, Quicken Windows 2004, Quicken for Mac 2004.</p>
+<p class="NormalWeb1" dir="ltr" align="center">Quicken and QuickBooks are registered trademarks of Intuit, Inc. First Century OnLine Banking Services, which may be accessed through Intuit's Quicken and QuickBooks software, are owned by First Century, not Intuit. Microsoft is a registered trademark of Microsoft in the United States.</p>
+<p class="NormalWeb1" dir="ltr" align="center"><a href="sign_up.html" target="_parent">I Agree</a> | <a href="index.html">I Disagree</a></p>
+<p dir="ltr">&nbsp;</p>
+
+             </div><!-- End of content1 div -->
+    </div><!-- End of contentContainer div -->
+    <div id="footerContainer">
+      <div id="footerShadow">
+          <div id="logos"><img src="images/fdic_logos.png" width="106" height="23" border="0" /></div>
+          <div id="footerContent">
+            <ul>
+              <li><a href="#">Investor Relations</a></li>
+              <li><a href="#">Check Reorder</a></li>
+              <li><a href="Calculators.html">Calculators</a></li>
+                  <li><a href="OtherServices.html#Debit">Lost or Stolen Visa Debit Card</a></li>
+            <!--<li><a href="branch-locations.aspx">Locations</a></li>
+-->             <li><a href="Privacy%20Notice%2020150c55.pdf?documentId=13731" target="_blank">Privacy Policy</a></li>
+              <!--<li><a href="speedbump.aspx?link=www.pciapply.com/pci_fi_login.aspx">PCI Compliance</a></li>
+-->             <li><a href="Online-Banking-Security.html">Security</a></li>
+
+            </ul>
+          </div>
+        </div>
+    </div><!-- End of footerContainer div -->
+</div><!-- End of page div -->
+</body>
+
+</html>

@@ -1,0 +1,340 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from www.firstcentury.com/checking.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 Apr 2016 13:49:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>First Century</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="mootools.js"></script>
+<script type="text/javascript" src="swfobject.js" charset="utf-8"></script>
+<script type="text/javascript" src="calcs.js" charset="utf-8"></script>
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<!--[if lte IE 6]>
+    <link rel="stylesheet" type="text/css" href="iepngfixs.css" />
+<![endif]-->
+<script> 
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){ 
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), 
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m) 
+})(window,document,'script','../www.google-analytics.com/analytics.js','ga'); 
+
+ga('create', 'UA-58052676-1', 'auto'); 
+ga('send', 'pageview'); 
+
+</script>
+</head>
+
+<body class="logos"><div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'ar,ca,cy,da,de,el,es,fr,ga,it,ja,lv,pl,pt,ru,tr,zh-CN', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        
+<!-- class: home | onlinebanking | mainimg -->
+<div id="bgHighlight"></div>
+<div id="page">
+	<div id="headerContainer">
+    	<div id="header"><!--include file="inc_slideshow.aspx"-->
+        	<div id="onlinebankingxy"></div><!-- End of onlinebankingxy div -->
+            <div id="onlinebanking">
+                    	<div id="obheader">ONLINE BANKING</div>
+<div id="obcontent">
+
+<!-- Javascript Functions //-->
+<script type='text/javascript'>
+<!--
+        function setAction()
+        {
+               //Fill in the Routing number below.
+               var rtNum = "051500601";
+               var x = document.forms.Remote;
+               
+               if(x.loginTo[0].checked) {
+                   x.action = 'https://web13.secureinternetbank.com/pbi_pbi1961/Pbi1961.ashx?WCI=RemoteLogin&amp;RT=051500601&amp;LogonBy=connect3&amp;PRMACCESS=Account';                  
+               } else {
+                       x.nmUID.value = x.AccessID.value;
+                       x.nmRTN.value = rtNum;
+                       x.action = 'https://web13.secureinternetbank.com/EBC_EBC1961/EBC1961.ashx?WCI=Process&amp;WCE=RemoteLogon&amp;IRL=T&amp;RTN=051500601&amp;mfa=2';
+               }
+        }
+           
+        function doLoginRefresh()
+        {
+               var x = document.forms.Remote;
+               
+               if (x.AccessIDVisible.value != "") {
+                       x.AccessID.value = x.AccessIDVisible.value;
+                       x.AccessIDVisible.value = "";
+                       
+                       setAction();
+                       return true;
+               } else {
+                       alert("Please Enter a valid Access ID.  Thank you!"); 
+                       return false;
+               }       
+        }
+//-->
+</script>  
+
+<!-- HTML Login Form //-->
+<form action='#' method='post' onsubmit='return doLoginRefresh()' id='Remote'>
+        <input type="hidden" id='nmUID' name="nmUID" value="" />
+        <input type="hidden" id='nmRTN' name="nmRTN" value="" />
+        <input type="hidden" id='AccessID' name="AccessID" value="" />
+        
+<table border="0" cellpadding="0" cellspacing="0" width="230" summary='Login Form'>
+<tr>
+   <td style="padding-bottom: 5px;"><b>Logon to:</b></td>
+   <td style="font-size: 11px; text-align: right; padding-bottom: 5px;">
+           <input type="radio" name="loginTo" value="ecom" checked="checked" />Personal  
+           <input type="radio" name="loginTo" value="ecorp" />Business								   </td>
+</tr>
+<tr>
+   <td style="padding-bottom: 5px;"><b>Access ID:</b></td>
+   <td style="text-align: right; padding-bottom: 5px;"><input class="lock" type='text' id='AccessIDVisible' name="AccessIDVisible" value="" size="18" maxlength="20" /></td>
+</tr>   
+<tr>
+   <td colspan='2' style="text-align: right;"><input class="obButton" type="submit" value="Log In" name="submit"></td>
+</tr>
+</table>
+</form>
+<!--<div id="oblinks"><a href="https://web13.secureinternetbank.com/pbi_pbi1961/pbi1961.ashx?Rt=051500601&LogonBy=connect3&PRMACCESS=Account&enroll=true">First Time User</a> | <a href="https://web13.secureinternetbank.com/pbi_pbi1961/pbi1961.ashx?Rt=051500601&LogonBy=connect3&PRMACCESS=Account&WCI=ForgotPswd">Forgot Password</a><br>-->
+<div id="oblinks"><a href="enrollment.html">First Time User</a> | <a href="#">Forgot Password</a><br>
+<a href="online-banking.html">Learn More</a></div>                   
+                    </div><!-- End of obcontent div -->
+                </div>
+           	  <!-- End of onlinebanking div -->
+        	<div id="logo"><a href="default.html"><img src="images/spacer.gif" width="100%" height="100%" border="0"/></a></div>
+        </div><!-- End of header div -->
+    </div><!-- End of headerContainer div -->
+	<div id="contentContainer">
+    	<div id="divider">
+        	<div id="nav1">
+             <ul id="MenuBar1" class="MenuBarHorizontal">
+<li><a href="default.html">Home</a></li>
+<li><a class="MenuBarItemSubmenu" href="#">Personal</a>
+    <ul>
+        <li><a href="checking.html">Checking</a></li>
+        <li><a href="Savings.html">Savings</a></li>
+        <li><a href="cd-ira.html">CDs  &amp; IRAs</a></li>	
+        <li><a href="OtherServices.html">Other Services</a></li>
+    </ul>
+</li>
+<li><a href="#" class="MenuBarItemSubmenu">Business</a>
+    <ul>
+        <li><a href="business-checking.html">Checking</a></li>
+        <li><a href="business-savings.html">Savings</a></li>
+        <li><a href="cd-ira.html">CDs &amp; IRAs</a></li>
+        <li><a href="OtherServices.html">Other Services</a></li>
+    </ul>
+</li>
+<li><a class="MenuBarItemSubmenu" href="#">Loans</a>
+    <ul>
+      <li><a href="commercial-loans.html">Commercial Loans</a></li>
+      <li><a href="consumer-loans.html">Consumer Loans</a></li>
+    </ul>
+</li>
+<li><a class="MenuBarItemSubmenu" href="#">Trust &amp; Financial Services</a>
+    <ul>
+      <li><a href="trust-services.html">Trust Services</a></li>
+      <li><a href="retirement-services.html">Retirement Services</a></li>
+      <li><a href="education-planning.html">Education Planning</a></li>
+      <li><a href="estate-planning.html">Estate Planning</a></li>
+      <li><a href="investment-services.html">Investment Services</a></li>
+      <li><a href="#">Client Point</a></li>
+    </ul>
+</li>
+<li><a href="#" class="MenuBarItemSubmenu">About Us</a>
+  <ul>
+    <li><a href="history-message.html">History</a></li>
+    <li><a href="branch-locations.html">Branch Locations &amp; ATMs</a></li>
+    <li><a href="#">Investor Relations</a></li>
+    <li><a href="contact-us.html">Contact Us</a></li>
+    <li><a href="job-opportunities.html">Job Opportunities</a></li>
+ </ul>
+</li>
+<li><div style="z-index: 1; top: 10px; right: 10px;"><a href="de/"><img src="de.png"></a></div></li>
+<li><div style="z-index: 1; top: 10px; right: 10px;"><a href="#"><img src="en.png"></a></div></li>
+</ul>
+          </div><!-- End of nav1 div -->
+        </div><!-- End of divider div -->
+
+<!-- include file="inc_middleSection.aspx" --><!-- Remove on secondary pages -->       	
+<div id="content1">
+<!-- include file="inc_mainimgBanner.aspx" --><!-- Remove on secondary pages -->         
+<!-- CMS Content Here -->
+<h1>Personal Checking</h1>
+<p>The diverse groups of people that make up the communities served by First Century have various financial needs. That's why we offer eight different checking accounts to serve everyone from the college student to the senior citizen.</p>
+<ul>
+<li><span style="font-size: 12px;"><a href="#Free">First Free Checking</a></span></li>
+<li><span style="font-size: 12px;"><a href="#Choice">First Choice Checking</a></span></li>
+<li><span style="font-size: 12px;"><a href="#Interest">First Interest Checking</a></span></li>
+<li><span style="font-size: 12px;"><a href="#InterestPlus">First Interest Plus Checking</a></span></li>
+<li><span style="font-size: 12px;"><a href="#Lifestyle">First Lifestyle Checking</a></span></li>
+<li><span style="font-size: 12px;"><a href="#LifestylePlus">First Lifestyle Plus Checking</a></span></li>
+<li><span style="font-size: 12px;"><a href="#Money">FIrst Money Market</a></span></li>
+<li><span style="font-size: 12px;"><a href="#MoneyPlus">First Money Market Plus</a></span></li>
+</ul>
+<h3>All of our checking accounts come with the following complimentary services*:</h3>
+<ul>
+<li><span style="font-size: 12px;">Unlimited Check Writing</span></li>
+<li><span style="font-size: 12px;">FREE Visa Debit Card</span></li>
+<li><span style="font-size: 12px;">FREE FirstNet Online Banking</span></li>
+<li><span style="font-size: 12px;">FREE Notary Service</span></li>
+<li><span style="font-size: 12px;"><span>FREE Direct Deposit&nbsp;(Social Security and Payroll Checks)</span></span></li>
+<li><span style="font-size: 12px;"><span><span>FREE Online Bill Payment</span></span></span></li>
+</ul>
+<p>&nbsp;</p>
+<h2>First Free Checking<a name="Free"></a></h2>
+<p>First Free Checking is a non-interest bearing account with no minimum balance and no monthly fee.</p>
+<ul>
+<li><span style="font-size: 12px;">$50 Minimum to Open</span></li>
+</ul>
+<p>&nbsp;</p>
+<h2>First Choice Checking<a name="Choice"></a></h2>
+<p>First Choice Checking is a non-interest bearing account with no minimum balance and a nominal $5 monthly fee. &nbsp;It includes all the same features as our First Free Checking plus a variety of money saving benefits valued at over $400!</p>
+<ul>
+<li><span style="font-size: 12px;">First Order of Checks..... FREE -<em> $18 value</em></span></li>
+<li><span style="font-size: 12px;">FREE Automatic Savings</span></li>
+<li><span style="font-size: 12px;">$10,000 AD&amp;D Insurance - <em>$40 value</em></span></li>
+<li><span style="font-size: 12px;">$5,000 Identity Theft Coverage - <em>$42 value</em></span></li>
+<li><span style="font-size: 12px;">Safe Deposit Journal -<em> $5 value</em></span></li>
+<li><span style="font-size: 12px;">Key Tag Return - <em>$10 value</em></span></li>
+<li><span style="font-size: 12px;">Credit Card Registration - <em>$15 value</em></span></li>
+<li><span style="font-size: 12px;">KidCare ID - <em>$5.95 value</em></span></li>
+<li><span style="font-size: 12px;">Entertainment Savers Guide - <em>$150 value</em></span></li>
+<li><span style="font-size: 12px;">Theme Park and Movie Tickets - <em>$75 value</em></span></li>
+<li><span style="font-size: 12px;">MemberTravelSource.com</span></li>
+<li><span style="font-size: 12px;">Walk-In Pharmacy Card -<em> $79 value</em><br /></span></li>
+<li><span style="font-size: 12px;">$50 Minimum to Open</span></li>
+</ul>
+<p style="text-align: right;"><a href="#top">&nbsp;Back to Top&nbsp;</a></p>
+<h2>First Interest Checking<a name="Interest"></a></h2>
+<p>First Interest Checking provides an option for our customers who want to keep their funds in an interest bearing account.</p>
+<ul>
+<li><span style="font-size: 12px;">$1000 Minimum Balance</span></li>
+<li><span style="font-size: 12px;">$10 Monthly Service Fee if Account Balance Falls Below Minimum Balance (This fee is waived if you have a $2,000 minimum balance in a qualifying savings account. Customer is required to pay for pre-printed checks.)</span></li>
+<li><span style="font-size: 12px;"><span>Interest is compounded daily and credited monthly</span><br /></span></li>
+</ul>
+<p>&nbsp;</p>
+<h2>First Interest Plus Checking<a name="InterestPlus"></a></h2>
+<p>First Interest Checking Plus offers customers with average account balances the option to earn interest and receive a few extra benefits.</p>
+<ul>
+<li><span style="font-size: 12px;">Single Safe Deposit Box Discount</span></li>
+<li><span style="font-size: 12px;">FREE Consultation for Trust and Retirement Planning</span></li>
+<li><span style="font-size: 12px;">Interest is compounded daily and credited monthly</span></li>
+<li><span style="font-size: 12px;">$12,500 Minimum in Qualifying Deposit or Loan Balance</span></li>
+<li><span style="font-size: 12px;">$16.25 Monthly Service Fee if Account Balance Falls Below Minimum Qualifying Deposit or Loan Balance</span></li>
+</ul>
+<p style="text-align: right;"><a href="#top">&nbsp;Back to Top&nbsp;</a></p>
+<h2>First Lifestyle Checking<a name="Lifestyle"></a></h2>
+<p>First Lifestyle Checking is an interest bearing account with a low minimum balance that is designed to meet your needs and provide nearly $400 in savings each year.</p>
+<ul>
+<ul>
+<li><span style="font-size: 12px;">FREE Personalized Checks - <em>$18 value</em>&nbsp;(Limit 2 boxes per year)</span></li>
+<li><span style="font-size: 12px;">FREE Cashiers' Checks- <em>$180 value</em></span></li>
+<li><span style="font-size: 12px;">FREE Online Bill Payment - <em>$60 value</em></span></li>
+<li><span style="font-size: 12px;">Single Safe Deposit Box Discount</span></li>
+<li><span style="font-size: 12px;">Tiered Rate of Interest</span></li>
+<li><span style="font-size: 12px;">Social Activities and Group Travel</span></li>
+<li><span style="font-size: 12px;">Member Calendar of Activities&nbsp;</span></li>
+<li><span style="font-size: 12px;">$1,000 AD&amp;D Insurance - <em>$4 value</em></span></li>
+<li><span style="font-size: 12px;">$100,000 Common Carrier Insurance -<em> $40 value</em></span></li>
+<li><span style="font-size: 12px;">Key Tag Return -<em> $10 value</em></span></li>
+<li><span style="font-size: 12px;">Credit Card Registration - <em>$15 value</em></span></li>
+<li><span style="font-size: 12px;">Preferred Hotel Savings Guide - <em>$150 value</em></span></li>
+<li><span style="font-size: 12px;">Entertainment Savers Guide - <em>$150 value</em></span></li>
+<li><span style="font-size: 12px;">Rental Car Discounts - <em>$25 value</em></span></li>
+<li><span style="font-size: 12px;">MemberTravelSource.com&nbsp;</span></li>
+<li><span style="font-size: 12px;">Travel Rewards&nbsp;</span></li>
+<li><span style="font-size: 12px;"><span>Interest is compounded daily and credited monthly</span></span></li>
+<li><span style="font-size: 12px;">$100 Minimum Balance</span></li>
+<li><span style="font-size: 12px;">$5 Monthly Service Fee if Balance Falls Below $100 Minimum</span></li>
+</ul>
+</ul>
+<p>&nbsp;</p>
+<p style="text-align: right;"><a href="#top">&nbsp;Back to Top&nbsp;</a></p>
+<h2>First Lifestyle Plus Checking<a name="LifestylePlus"></a></h2>
+<p>First Lifestyle Plus Checking is an interest bearing account with a nominal $5 monthly fee. It includes the flexibility of no minimum balance and an array of money saving benefits totalling nearly $600.</p>
+<ul>
+<li><span style="font-size: 12px;">FREE Personalized Checks - <em>$18 value</em>&nbsp;(Limit 2 boxes per year)</span></li>
+<li><span style="font-size: 12px;">FREE Cashiers' Checks- <em>$180 value</em></span></li>
+<li><span style="font-size: 12px;">FREE Online Bill Payment - <em>$60 value</em></span></li>
+<li><span style="font-size: 12px;">Single Safe Deposit Box Discount</span></li>
+<li><span style="font-size: 12px;">Tiered Rate of Interest</span></li>
+<li><span style="font-size: 12px;">Social Activities and Group Travel</span></li>
+<li><span style="font-size: 12px;">Member Calendar of Activities</span></li>
+<li><span style="font-size: 12px;">$1,000 AD&amp;D Insurance - <em>$4 value</em></span></li>
+<li><span style="font-size: 12px;">$100,000 Common Carrier Insurance -<em> $40 value</em></span></li>
+<li><span style="font-size: 12px;">Key Tag Return -<em> $10 value</em></span></li>
+<li><span style="font-size: 12px;">Credit Card Registration - <em>$15 value</em></span></li>
+<li><span style="font-size: 12px;">Preferred Hotel Savings Guide - <em>$150 value</em></span></li>
+<li><span style="font-size: 12px;">Entertainment Savers Guide - <em>$150 value</em></span></li>
+<li><span style="font-size: 12px;">Rental Car Discounts - <em>$25 value</em></span></li>
+<li><span style="font-size: 12px;">MemberTravelSource.com&nbsp;</span></li>
+<li><span style="font-size: 12px;">Travel Rewards&nbsp;</span></li>
+<li><span style="font-size: 12px;">$5,000 Identity Theft Coverage - <em>$42 value</em></span></li>
+<li><span style="font-size: 12px;">Safe Deposit Box Journal - <em>$5 value</em></span></li>
+<li><span style="font-size: 12px;">Theme Park and Movie Tickets - <em>$75 value</em></span></li>
+<li><span style="font-size: 12px;">KidCare ID - <em>$5.95 value</em></span></li>
+<li><span style="font-size: 12px;">Walk-In Pharmacy Card - <em>$79 value</em></span></li>
+<li><span style="font-size: 12px;">24-Hour NurseLine&nbsp;<br /></span></li>
+<li><span style="font-size: 12px;"><span>Interest is compounded daily and credited monthly</span><br /></span></li>
+<li><span style="font-size: 12px;"><span>$50 Minimum to Open</span></span></li>
+</ul>
+<p style="text-align: right;"><a href="#top">&nbsp;Back to Top&nbsp;</a></p>
+<h2>First Money Market<a name="Money"></a></h2>
+<ul>
+<li><span style="font-size: 12px;">Interest Bearing Account</span></li>
+<li><span style="font-size: 12px;">$2,500 Minimum Balance</span></li>
+<li><span style="font-size: 12px;">$12 Monthly Service Fee if Account Falls Below $2,500 Minimum Balance</span></li>
+<li><span style="font-size: 12px;">$5 Fee for Excessive Withdrawals</span></li>
+<li><span style="font-size: 12px;">Six (6) pre-authorized transfers by check, draft, debit card or similar order made to third parties each four (4) week or similar period<br /></span></li>
+</ul>
+<p>&nbsp;</p>
+<h2>First Money Market Plus<a name="MoneyPlus"></a></h2>
+<ul>
+<li><span style="font-size: 12px;">Interest Bearing Account</span></li>
+<li><span style="font-size: 12px;">$5,000 Minimum Balance</span></li>
+<li><span style="font-size: 12px;">$15 Monthly Service Fee if Account Falls Below $5,000 Minimum Balance</span></li>
+<li><span style="font-size: 12px;">$5 Fee for Excessive Withdrawals</span></li>
+<li><span style="font-size: 12px;">Six (6) pre-authorized transfers by check, draft, debit card or similar order made to third parties each four (4) week or similar period</span></li>
+<li><span style="font-size: 12px;">Premium rate for balances of $25,000 or more<br /></span></li>
+</ul>
+<p style="text-align: right;"><a href="#top">&nbsp;Back to Top&nbsp;</a></p>
+<address>*List of features not included on First Money Market and First Money Market Plus Accounts</address>
+
+ </div><!-- End of content1 div -->
+    </div><!-- End of contentContainer div -->
+    <div id="footerContainer">
+    	<div id="footerShadow">
+        	<div id="logos"><img src="images/fdic_logos.png" width="106" height="23" border="0" /></div>
+        	<div id="footerContent">
+        		<ul>
+        			<li><a href="#">Investor Relations</a></li>
+        			<li><a href="#">Check Reorder</a></li>
+        			<li><a href="Calculators.html">Calculators</a></li>
+                	<li><a href="OtherServices.html#Debit">Lost or Stolen Visa Debit Card</a></li>
+       			<!--<li><a href="branch-locations.aspx">Locations</a></li>
+-->        			<li><a href="Privacy%20Notice%2020150c55.pdf?documentId=13731" target="_blank">Privacy Policy</a></li>
+        			<!--<li><a href="speedbump.aspx?link=www.pciapply.com/pci_fi_login.aspx">PCI Compliance</a></li>
+-->        			<li><a href="Online-Banking-Security.html">Security</a></li>
+
+        		</ul>
+        	</div>
+        </div>
+    </div><!-- End of footerContainer div -->
+</div><!-- End of page div -->
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+
+<!-- Mirrored from www.firstcentury.com/checking.aspx by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 24 Apr 2016 13:49:57 GMT -->
+</html>
